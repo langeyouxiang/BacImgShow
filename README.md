@@ -1,10 +1,10 @@
 # BacImgShow<br/>  
-双边滤波的解释<br/>  
-https://www.cnblogs.com/Imageshop/p/3406823.html<br/>
+双边滤波的解释：https://www.cnblogs.com/Imageshop/p/3406823.html<br/>
 
 #Python3.7 安装opencv并设置国内代理。如安装其他第三方python库，请修改opencv-python为自己所需的第三方库名字。<br/>
 pip install opencv-python -i https://mirrors.ustc.edu.cn/pypi/web/simple/
 
+#linux下安装vlc：sudo apt-get install vlc
 
 ```Python
 #np.float32(im / 65535.0*255.0) 出现memory error时检查下系统是64位，安装的python是32位。将python重新安装为64位。
