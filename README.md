@@ -7,7 +7,7 @@ pip install opencv-python -i https://mirrors.ustc.edu.cn/pypi/web/simple/
 
 
 ```Python
-#np.float32(im / 65535.0*255.0) 出现memory error时检查下系统是否是64位，安装的python是32位。将python重新安装位64位。
+#np.float32(im / 65535.0*255.0) 出现memory error时检查下系统是64位，安装的python是32位。将python重新安装为64位。
 #读取佳能raw图片，有色差，待解决。
 import numpy as np 
 import cv2 
