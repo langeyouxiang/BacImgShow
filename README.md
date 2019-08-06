@@ -1,6 +1,9 @@
-# BacImgShow<br>  
-双边滤波的解释<br>  
-https://www.cnblogs.com/Imageshop/p/3406823.html<br>  
+# BacImgShow<br/>  
+双边滤波的解释<br/>  
+https://www.cnblogs.com/Imageshop/p/3406823.html<br/>
+
+#Python3.7 安装opencv并设置国内代理。如安装其他第三方python库，请修改opencv-python为自己所需的第三方库名字。<br/>
+pip install opencv-python -i https://mirrors.ustc.edu.cn/pypi/web/simple/
 
 
 ```Python
